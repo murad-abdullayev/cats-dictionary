@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto";
+}
+img {
+  width: 40px;
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.dictionary-header .container {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dictionary-header .container .left-side img {
+  width: 70px;
+  cursor: pointer;
+}
+.dictionary-header .container .right-side {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.dictionary-header .container .right-side .line {
+  width: 1.5px;
+  height: 45px;
+  background-color: rgb(186, 186, 186, 0.3);
+}
+
+.dictionary-header .container .right-side .select-font {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+.dictionary-header .container .right-side .select-font p {
+  font-family: "PT Serif";
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+}
+.dictionary-header .container .right-side .select-font img {
+  width: 20px;
+}
+.change-theme-button {
+  background-color: #757575;
+  height: 20px;
+  width: 40px;
+  border-radius: 10px;
+}
